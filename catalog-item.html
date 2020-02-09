@@ -3,13 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Набор для путешествий «Baxter of California»</title>
 </head>
 
 <body>
   <header>
-    <a>
+    <a href="#">
       <img src="img/logo.svg" width="368" height="153" alt="Логотип барбершопа «Бородинский»">
     </a>
     <nav>
@@ -31,8 +32,8 @@
         </li>
       </ul>
       <ul>
-        <li>
-          <button type="button">Вход</button>
+        <li class="login-link">
+          <a href="#">Вход</a>
         </li>
       </ul>
     </nav>
@@ -46,16 +47,22 @@
       <li>Набор для путешествий «Baxter of California»</li>
     </ul>
     <section>
-      <h2>Изображение товара</h2>
+      <h2 class="visually-hidden">Изображение товара</h2>
       <img src="img/product-big.jpg" width="460" height="498" alt="Фото всего набора">
       <ul>
-        <li><img src="img/product-small-1.jpg" width="140" height="149" alt="Фото в анфас"></li>
-        <li><img src="img/product-small-1.jpg" width="140" height="149" alt="Фото в профиль"></li>
-        <li><img src="img/product-small-3.jpg" width="140" height="149" alt="Фото всего набора"></li>
+        <li>
+          <img src="img/product-small-1.jpg" width="140" height="149" alt="Фото в анфас">
+        </li>
+        <li>
+          <img src="img/product-small-1.jpg" width="140" height="149" alt="Фото в профиль">
+        </li>
+        <li>
+          <img src="img/product-small-3.jpg" width="140" height="149" alt="Фото всего набора">
+        </li>
       </ul>
     </section>
     <section>
-      <h2>Описание товара</h2>
+      <h2 class="visually-hidden">Описание товара</h2>
       <p>Есть в наличии</p>
       <p>Артикул: dexter-ae</p>
       <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
@@ -81,21 +88,21 @@
     <div>
       <p>Давайте дружить!</p>
       <ul>
-        <li><a href="#">Вконтакте</a></li>
-        <li><a href="#">Фейсбук</a></li>
-        <li><a href="#">Инстаграм</a></li>
+        <li>
+          <a href="https://vk.com" target="_blank">Вконтакте</a>
+        </li>
+        <li>
+          <a href="https://ru-ru.facebook.com" target="_blank">Фейсбук</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/?hl=ru" target="_blank">Инстаграм</a>
+        </li>
       </ul>
     </div>
     <span>Разработано:
       <a href="https://htmlacademy.ru">HTML Academy</a>
     </span>
   </footer>
-  <section>
-    <h2>Личный кабинет</h2>
-    <p>Введите свой логин и пароль.</p>
-    <!--Здесь будет форма-->
-    <button type="button">Закрыть</button>
-  </section>
 </body>
 
 </html>

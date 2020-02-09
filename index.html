@@ -3,13 +3,14 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Барбершоп «Бородинский»</title>
 </head>
 
 <body>
   <header>
-    <a>
+    <a href="#">
       <img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершопа «Бородинский»">
     </a>
     <nav>
@@ -31,16 +32,16 @@
         </li>
       </ul>
       <ul>
-        <li>
-          <a type="button">Вход</a>
+        <li class="login-link">
+          <a href="#">Вход</a>
         </li>
       </ul>
     </nav>
   </header>
   <main>
-    <h1>Барбершоп «Бородинский»</h1>
+    <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
     <section>
-      <h2>Преимущества</h2>
+      <h2 class="visually-hidden">Преимущества</h2>
       <ul>
         <li>
           <h3>Быстро</h3>
@@ -128,16 +129,21 @@
     <div>
       <p>Давайте дружить!</p>
       <ul>
-        <li><a href="#">Вконтакте</a></li>
-        <li><a href="#">Фейсбук</a></li>
-        <li><a href="#">Инстаграм</a></li>
-      </ul>
+        <li>
+          <a href="https://vk.com" target="_blank">Вконтакте</a>
+        </li>
+        <li>
+          <a href="https://ru-ru.facebook.com" target="_blank">Фейсбук</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/?hl=ru" target="_blank">Инстаграм</a>
+        </li>
     </div>
     <span>Разработано:
       <a href="https://htmlacademy.ru">HTML Academy</a>
     </span>
   </footer>
-  <section>
+  <section class="visually-hidden">
     <h2>Личный кабинет</h2>
     <p>Введите свой логин и пароль.</p>
     <form action="https://echo.htmlacademy.ru" method="post">
@@ -159,7 +165,7 @@
     </form>
     <button type="button">Закрыть</button>
   </section>
-  <section>
+  <section class="visually-hidden">
     <h2>Как до нас добраться</h2>
     <p>
       <img src="img/map.jpg" width="766" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
